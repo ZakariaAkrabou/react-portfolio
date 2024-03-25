@@ -1,0 +1,42 @@
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.services-container .services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: var(--transition);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.services-container .services-card:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.services-container .services-card:hover h3 {
+  color: var(--color-white);
+}
+
+.services-container .services-card h3 {
+  margin-bottom: 0;
+}
+
+.services-container .services-card p {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+}

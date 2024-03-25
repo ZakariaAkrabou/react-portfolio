@@ -1,0 +1,24 @@
+.review-container {
+  width: 50%;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  text-align: center;
+}
+.review img {
+  width: 4rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .review-container {
+    width: 60%;
+  }
+}
+@media (max-width: 1024px) {
+  .review-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,19 @@
+.Heading-text {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.Heading-text span {
+  color: var(--color-primary);
+}
+
+@media (max-width: 1024px) {
+  .Heading-text {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .Heading-text {
+    font-size: 1.8rem;
+  }
+}
