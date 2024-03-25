@@ -28,7 +28,7 @@ header {
   border: 5px solid var(--color-white);
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  width: 100%; /* Ensure image fills its container */
+  width: 100%;
 }
 
 .header-right {
@@ -44,7 +44,7 @@ header {
   .header-container {
     grid-template-columns: 1fr;
     gap: 0;
-    justify-items: center; /* Center content on smaller screens */
+    justify-items: center; 
   }
 
   .header-container::before {
